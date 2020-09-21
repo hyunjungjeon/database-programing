@@ -1,1 +1,26 @@
+컴퓨터공학과 20181002 전현정
 
+새로 배운 내용
+- 웹과 DB연동과정에서 보안 취약점 발생
+- SQL Injection => 악의적인 사용자가 보안상의 취약점을 이용하여 임의의 sql문을 주입하여 DB가 비정상적인 동작하게 함
+- OWASP => 4년마다 발표하는 웹 취약점 top 10
+- 보안 정책에서 사용자가 보내는 정보를 단계별로 검증해야 시스템에 저장됨
+- delete는 form형태로 적용해야 안전
+- myssqli_real_escape_string()으로 입력값을 의미없는 문자열로 인식하게 함
+
+문제 발생 및 해결 과정
+- DB에 데이터를 삽입 삭제 하다보니 삭제한 번호 이후부터 번호가 생성되는 문제가 발생함
+- > mysql> ALTER TABLE music AUTO_INCREMENT=1;
+- > 으로 auto_increment의 값을 1로 초기화 하였더니 문제가 해결 됨
+
+참고
+- https://m.blog.naver.com/PostView.nhn?blogId=goddlaek&logNo=221005664911&proxyReferer=https:%2F%2Fwww.google.com%2F => 번호 자동증가 초기화
+
+회고
+- 좀더 안전한 웹페이지를 만들 수 있어서 좋았다(+)
+- 교수님께서 말씀해주신 뽀모도로공부법을 사용해보려했으나 끝없는 쉬는시간을 가지게 되었다(-)
+- 쉬는시간 알림을 설정해 지킬 수 있도록 노력해야겠다(!)
+- 프로젝트를 할때 좀 더 보안에 신경쓰면서 해야겠다고 생각함(!)
+
+구동영상
+-  https://youtu.be/PL5dafyGWy0
