@@ -25,6 +25,7 @@
 > film, film_category, category를 조인하여 select로 카테고리를 선정하면 선정한 카테고리로 영화를 출력한다.
 
 + 고객 별 정보 조회
+
 ![3](https://user-images.githubusercontent.com/70558461/97818355-53908200-1ce5-11eb-818f-14fb9c0bffeb.PNG)
 > customer, pyment를 조인하여 고객의 정보와 고객이 DVD에 사용한 총 가격을 보여준다.
 
