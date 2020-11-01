@@ -84,7 +84,7 @@ while ($row = mysqli_fetch_array($result)) {
     <!--영화 정보-->
     <div id="r_frame_in">
             <div class="section">
-                <h1 class="section_title">카테고리 별 영화 조회</h1>
+                <h1 class="section_title">고객 정보 조회</h1>
                 <hr>
                 <div class="search_form">
                     <form action='customer_info.php' method="POST">
