@@ -15,4 +15,16 @@
 ### 발견한 정보
 + sakila
 > 평소 관심사라고 할 만한 것이 없어 캐글을 둘러보아도 마음에 드는 DB가 없어 기본 샘플 데이터인 sakila를 사용했다.
-![1](./1.png)
++ 영화 전체 목록을 film_id 오름차순으로 출력
+![1](https://user-images.githubusercontent.com/70558461/97818169-4cb53f80-1ce4-11eb-8e3b-5817fc189e6a.PNG)
+> film, film_actor, actor_info, language테이블을 조인해서 영화 전체 목록을 보여준다.
++ 카테고리 별 영화 출력
+![2](https://user-images.githubusercontent.com/70558461/97818219-a0c02400-1ce4-11eb-9f5a-66a59f37c160.PNG)
+> film, film_category, category를 조인하여 select로 카테고리를 선정하면 선정한 카테고리로 영화를 출력한다.
++ 고객 별 정보 조회
+![3](https://user-images.githubusercontent.com/70558461/97818355-53908200-1ce5-11eb-818f-14fb9c0bffeb.PNG)
+> customer, pyment를 조인하여 고객의 정보와 고객이 DVD에 사용한 총 가격을 보여준다.
+
+### 동작화면
+------------
+- https://youtu.be/bsMHxGdxhEQ
