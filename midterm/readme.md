@@ -16,7 +16,7 @@
 + sakila
 > 평소 관심사라고 할 만한 것이 없어 캐글을 둘러보아도 마음에 드는 DB가 없어 기본 샘플 데이터인 sakila를 사용했다.
 + 영화 전체 목록을 film_id 오름차순으로 출력
-![1](https://user-images.githubusercontent.com/70558461/97818169-4cb53f80-1ce4-11eb-8e3b-5817fc189e6a.PNG)
+![1](https://user-images.githubusercontent.com/70558461/97818820-1aa5dc80-1ce8-11eb-837a-d3fc4310b598.PNG)
 > film, film_actor, actor_info, language테이블을 조인해서 영화 전체 목록을 보여준다.
 
 + 카테고리 별 영화 출력
