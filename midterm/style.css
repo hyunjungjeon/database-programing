@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Sans-serif";
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/*--페이지 크기 조절--*/
+#r_frame {
+    border : 35px solid #50754a;
+    background-color : #50754a;
+}
+
+#r_frame_cover {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+#r_frame_in {
+    background-color: #FFFFFF;
+}
+
+#r_frame_title {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    color:#FFFFFF;
+    font-size: 50px;
+}
+
+#r_frame_name {
+    position: absolute;
+    top: 35%;
+    right : 3%;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*-- 본문 내용 구역 --*/
+.section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+hr {
+    width: 65%;
+    color : #a6a2a2;
+    margin-bottom: 40px;
+}
+
+.section_title {
+    font-size: 45px;
+    color: #3F4B3B;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+.analysis_content {
+    font-size: 22px;
+    color: #5A9367;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/*--테이블 정리---*/
+
+table.DB {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    line-height: 1.7;
+}
+
+table.DB th {
+    width: 10px;
+    padding: 15px;
+    font-weight: bold;
+    color: #fff;
+    background:#44633F ;
+}
+
+table.DB td {
+    width: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+
+
+/*--form 형식--*/
+.search_form {
+    width:55%;
+    height:70px;
+    margin: auto;
+  }
+
+.search_form label {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  input {
+    margin:0;
+  }
+
+  input[type="text"] {
+    width:300px;
+    height:50px;
+    border: 1px solid #50754a;
+    display:inline;
+  }
+
+  input[type=submit] {
+    width: 100px;
+    height:50px;
+    background-color: #44633F;
+    color: white;
+    display:inline;
+    border-radius: 8px;
+    border:none;
+  }
+
+  .bt {
+      margin: 20px;
+      display: inline-block;
+  }
+
+  select { 
+      width: 150px; 
+      height: 50px;
+      padding: .5em .5em; 
+      border: 1px solid #50754a;
+      border-radius: 0px;
+      font-family: inherit;
+    }
+
+
