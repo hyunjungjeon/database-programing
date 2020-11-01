@@ -20,6 +20,7 @@
 > film, film_actor, actor_info, language테이블을 조인해서 영화 전체 목록을 보여준다.
 
 + 카테고리 별 영화 출력
+
 ![2](https://user-images.githubusercontent.com/70558461/97818219-a0c02400-1ce4-11eb-9f5a-66a59f37c160.PNG)
 > film, film_category, category를 조인하여 select로 카테고리를 선정하면 선정한 카테고리로 영화를 출력한다.
 
